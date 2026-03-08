@@ -1,4 +1,3 @@
-requirements_content_full = """
 pandas
 numpy
 scikit-learn
@@ -9,7 +8,6 @@ fpdf
 streamlit
 joblib
 """
-
 with open('requirements.txt', 'w') as f:
     f.write(requirements_content_full.strip())
 
