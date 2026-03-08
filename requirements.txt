@@ -1,4 +1,4 @@
-requirements_content = """
+requirements_content_full = """
 pandas
 numpy
 scikit-learn
@@ -6,9 +6,11 @@ matplotlib
 requests
 beautifulsoup4
 fpdf
+streamlit
+joblib
 """
 
 with open('requirements.txt', 'w') as f:
-    f.write(requirements_content.strip())
+    f.write(requirements_content_full.strip())
 
-print("requirements.txt has been successfully created.")
+print("✅ Fichier 'requirements.txt' mis à jour avec toutes les dépendances (Streamlit inclus).")
